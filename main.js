@@ -68,7 +68,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     "Content-Type": "application/json",
                   },
                   body: JSON.stringify({
-                    chat_id: 386290959, // Замените на ID чата админа
+                    chat_id: 966908, // Замените на ID чата админа
                     text: `Новая заявка:\nИмя: ${name} \nemail: ${email}\nТелефон: ${phone}\nСообщение: ${message} \nОрганизация: ${organization} }`,
                   }),
                 }
